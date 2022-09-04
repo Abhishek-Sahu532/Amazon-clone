@@ -1,4 +1,4 @@
-.product-heading{
+.product-heading {
     width: 100%;
     height: 100px;
     display: flex;
@@ -6,13 +6,13 @@
 
 }
 
-.product-heading .product-container{
+.product-heading .product-container {
     margin: 20px;
 
 }
 
 
-.product-heading .product-container h1{
+.product-heading .product-container h1 {
     font-size: 30px;
     font-weight: bold;
     color: #121212;
@@ -20,12 +20,21 @@
 
 /* section 2 */
 
-.product-detail{
+.product-detail {
     width: 100%;
     height: 700px;
 }
 
-.product-detail .product-container{
+.product-detail .product-small-pic {
+    width: 5%;
+}
+
+.product-detail .product-small-pic ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.product-detail .product-container {
     margin: 20px;
     display: flex;
     flex-direction: row;
@@ -33,66 +42,79 @@
 }
 
 
-.product-detail .product-container .product-picture{
+.product-detail .product-container .product-picture {
     width: 50%;
+    margin-left: 10px;
 
 }
 
-.product-detail .product-container .product-picture img{
+.product-detail .product-container .product-picture img {
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(50,50,50,0.2)
+    box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.2);
+    
+    
 }
 
-.product-detail .product-container .product-detail-body{
-    width: 50%;
+.product-detail .product-container .product-detail-body {
+    width: 40%;
+    margin-left: auto;
 }
 
 
-.product-detail .product-container .product-detail-body .product-title{
+.product-detail .product-container .product-detail-body .product-title {
     font-size: 25px;
     font-weight: 500;
     color: #121212;
 }
 
 
-.product-detail .product-container .product-detail-body .product-price{
- margin-top: 10px;
- font-size: 20px;
- font-weight: 500;
+.product-detail .product-container .product-detail-body .product-price {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
 
 }
 
 
-.product-detail .product-container .product-detail-body .product-about{
-    margin-top:10px;
+.product-detail .product-container .product-detail-body .product-about {
+    margin-top: 10px;
+    color: #121212;
+    margin-left: 20xp;
+}
+
+.product-detail .product-container .product-detail-body .product-about h4 {
+    font-size: 20px;
+    font-weight: 500;
     color: #121212;
 }
-.product-detail .product-container .product-detail-body .product-about h4 {
- font-size: 20px;
- font-weight: 500;
- color: #121212;
-}
 
-.buttons{
+.buttons {
     margin-top: 20px;
     display: flex;
     gap: 5px;
 
 }
-.buttons .buy-now{
-width: 50%;
-border: none;
-background-color: #ffa41c;
-color: white;
-padding: 8px;
-border-radius: 10px;
+
+.buttons .buy-now {
+    width: 50%;
+    border: none;
+    background-color: #ffa41c;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
 }
 
-.buttons .add-to-cart{
+.buttons .add-to-cart {
     width: 50%;
     border: 2px solid #ffa41c;
     background-color: transparent;
     color: #ffa41c;
     border-radius: 10px;
-    
+
+}
+
+
+.product-about .product-about-list {
+margin: 15px;
+padding: 20px;
 }
